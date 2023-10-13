@@ -1,0 +1,29 @@
+.glassy {
+    background: rgba(53, 52, 46, 0.26);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    /* border: 1px solid rgba(53, 52, 46, 0.35); */
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh
+}
+.modal-content{
+    background-color: white;
+    width: 300px;
+    margin: auto;
+
+
+}
+
